@@ -3,7 +3,7 @@ type User = { id: number; email: string; first_name: string; };
 type GetUsersResponse = { data: User[]; };
 
 async function getUsers() {
-    try {    // 👇️ 
+    /*try {    // 👇️ 
         const data: GetUsersResponse
         const { data, status } = await axios.get<GetUsersResponse>('https://reqres.in/api/users',
             { headers: { Accept: 'application/json', }, },
@@ -21,6 +21,6 @@ async function getUsers() {
             console.log('unexpected error: ', error);
             return 'An unexpected error occurred';
         }
-    }
+    }*/
 }
 getUsers();
