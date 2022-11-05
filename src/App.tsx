@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from './containers/List';
+import AxiosExample from './AxiosExample';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <h1 className='navbar-brand text-light'>MovieList</h1>
       </nav>
       <List></List>
+      <AxiosExample></AxiosExample>
     </div>
   );
 }

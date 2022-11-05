@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useEffect} from 'react';
 import Card, { IMovie, IImg } from '../components/Card/Card';
 import axios from 'axios';
-//import movies from "./data.json"
 
 const List = () => {
     const [data, setData] = useState<any>();
